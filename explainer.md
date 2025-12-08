@@ -35,7 +35,7 @@ This Legal and Implementation Considerations Guide is designed to give an overvi
 
 ## 1. Draft Specification
 
-You can find the draft specification [here](https://github.com/privacycg/gpc-spec).
+You can find the draft specification [here](https://github.com/w3c/gpc).
 
 ## 2. Background
 
@@ -76,7 +76,7 @@ The `navigator.globalPrivacyControl` attribute will be present and have a value 
 
 ### 3.3 Signal Semantics
 
-When GPC is enabled, the browser is expressing a [do-not-sell-or-share preference](https://privacycg.github.io/gpc-spec/#dfn-preference).  These signals are direct requests to sites to respect that preference.
+When GPC is enabled, the browser is expressing a [do-not-sell-or-share preference](https://w3c.github.io/gpc/#dfn-preference).  These signals are direct requests to sites to respect that preference.
 
 The specification presents this design to ensure that there can be no mistake in understanding the intent or state of the signal. If the signal is active, it expresses an individual’s privacy choice.
 
